@@ -5,7 +5,7 @@ class Tester:
         self.deadline = deadline
 
     def work_hard(self, deadline):
-        self.deadline = deadline #д
+        self.deadline = deadline #добавляем возможность задать значение атрибута при вызове метода
         if self.deadline:
             print(self.name, 'Что ж, ещё часок поработаю!')
         else:
